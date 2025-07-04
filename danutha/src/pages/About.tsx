@@ -75,7 +75,7 @@ const About = () => {
 
             <div className="pt-6">
               <a
-                href="public/Images/cV.pdf"
+                href="/Images/cV.pdf"
                 download
                 className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
               >
@@ -99,7 +99,7 @@ const About = () => {
               <div className="relative w-full h-full rounded-full overflow-hidden bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900/20 dark:to-purple-900/20 border border-blue-200 dark:border-blue-700/50 flex items-center justify-center">
                 {/* Replace the initials with your photo */}
                 <img
-                  src="./public/Images/me.jpg" // <-- Replace with your actual image path
+                  src="/Images/me.jpg" // <-- Replace with your actual image path
                   alt="Danutha Imbulpitiya"
                   className="w-full h-full object-cover"
                 />
