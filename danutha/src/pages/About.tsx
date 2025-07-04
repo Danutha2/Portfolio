@@ -75,7 +75,7 @@ const About = () => {
 
             <div className="pt-6">
               <a
-                href="/Images/cV.pdf"
+                href="/Images/cv.pdf"
                 download
                 className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
               >
