@@ -26,7 +26,7 @@ const Projects = () => {
       title: "Realtime Ticket Simulating System",
       description:
         "The Real-Time Ticketing Simulation System is an application that allows users to simulate a dynamic ticketing environment where vendors add tickets to a pool, and consumers retrieve tickets in real time. The system provides a user-friendly interface for configuration, control, and monitoring of the simulation.",
-      image: "public/Images/Tickets.jpg",
+      image: "/Images/Tickets.jpg",
       technologies: ["Angular", "Spring Boot", "Multi Threading", "Java"],
       github: "https://github.com/Danutha2/RealTimeTicketing",
       demo: "https://github.com/Danutha2/RealTimeTicketing",
