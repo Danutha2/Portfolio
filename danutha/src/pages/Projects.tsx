@@ -8,7 +8,7 @@ const Projects = () => {
       title: "AgriMart",
       description:
         "AgriMart connects farmers directly with buyers, reducing post-harvest losses and market inefficiencies in Sri Lanka’s agriculture. Farmers list fresh produce, while buyers browse by crop, price, quality, and location. With secure login, real-time pricing, AI predictions, and direct negotiation, AgriMart makes connection with farmers and buyers as well as transparent in Sinhala, Tamil, and English. It empowers farmers and creates a more efficient, sustainable marketplace.",
-      image: "images/agrimart.jpg",
+      image: "public/Images/agrimart.jpg",
       technologies: [
         "Flutter",
         "Django",
@@ -26,7 +26,7 @@ const Projects = () => {
       title: "Realtime Ticket Simulating System",
       description:
         "The Real-Time Ticketing Simulation System is an application that allows users to simulate a dynamic ticketing environment where vendors add tickets to a pool, and consumers retrieve tickets in real time. The system provides a user-friendly interface for configuration, control, and monitoring of the simulation.",
-      image: "images/Tickets.jpg",
+      image: "public/Images/Tickets.jpg",
       technologies: ["Angular", "Spring Boot", "Multi Threading", "Java"],
       github: "https://github.com/Danutha2/RealTimeTicketing",
       demo: "https://github.com/Danutha2/RealTimeTicketing",
@@ -39,7 +39,7 @@ const Projects = () => {
       description:
         "This is a Student Management System that allows users to register students, store and load student details, manage student records, and generate reports. The system supports the following features:",
       image:
-        "images/stams.jpg",
+        "public/Images/stams.jpg",
       technologies: ["Java"],
       github: "https://github.com/Danutha2/STAMS",
       demo: "https://github.com/Danutha2/STAMS",
@@ -53,7 +53,7 @@ const Projects = () => {
       description:
         "Developed a RESTful API using NestJS to manage personal expenses with a modular, service-based architecture. Features include adding/retrieving expenses, calculating totals, finding the highest expense, and managing custom categories. Used DTOs for validation and clean separation of concerns. Built with scalable structure and MySQL integration.",
       image:
-        "images/expenseT.jpg",
+        "public/Images/expenseT.jpg",
       technologies: ["NestJS", "Node.js", "MySQL", "AWS S3"],
       github: "https://github.com/danutha/expense-tracker",
       demo: "https://expense-tracker-demo.netlify.app",
@@ -67,7 +67,7 @@ const Projects = () => {
       description:
         "The Task Manager is a full-stack web application developed using the MERN stack (MongoDB, Express.js, React, Node.js) that allows users to efficiently manage their daily tasks. It provides a clean and responsive user interface where tasks can be created, edited, updated, deleted, and tracked based on their status.",
       image:
-        "images/taskmaster2.jpg",
+        "public/Images/taskmaster2.jpg",
       technologies: ["Express js", "Node js","Node", "MongoDB"],
       github: "https://github.com/Danutha2/TaskManager",
       demo: "https://github.com/Danutha2/TaskManager",
