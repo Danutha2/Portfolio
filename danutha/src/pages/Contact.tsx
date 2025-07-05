@@ -56,7 +56,7 @@ const Contact = () => {
     {
       icon: Linkedin,
       name: 'LinkedIn',
-      href: 'www.linkedin.com/in/danutha-imbulpitiya-3b557817b',
+      href: 'https://www.linkedin.com/in/danutha-imbulpitiya-3b557817b',
       color: 'hover:text-blue-600'
     },
     {
