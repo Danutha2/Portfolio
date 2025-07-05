@@ -38,8 +38,7 @@ const Projects = () => {
       title: " Student Management System",
       description:
         "This is a Student Management System that allows users to register students, store and load student details, manage student records, and generate reports. The system supports the following features:",
-      image:
-        "/Images/stams.jpg",
+      image: "/Images/stams.jpg",
       technologies: ["Java"],
       github: "https://github.com/Danutha2/STAMS",
       demo: "https://github.com/Danutha2/STAMS",
@@ -52,8 +51,7 @@ const Projects = () => {
       title: "Expense Tracker",
       description:
         "Developed a RESTful API using NestJS to manage personal expenses with a modular, service-based architecture. Features include adding/retrieving expenses, calculating totals, finding the highest expense, and managing custom categories. Used DTOs for validation and clean separation of concerns. Built with scalable structure and MySQL integration.",
-      image:
-        "/Images/expenseT.jpg",
+      image: "/Images/expenseT.jpg",
       technologies: ["NestJS", "Node.js", "MySQL", "AWS S3"],
       github: "https://github.com/danutha/expense-tracker",
       demo: "https://expense-tracker-demo.netlify.app",
@@ -66,14 +64,44 @@ const Projects = () => {
       title: "Task Master",
       description:
         "The Task Manager is a full-stack web application developed using the MERN stack (MongoDB, Express.js, React, Node.js) that allows users to efficiently manage their daily tasks. It provides a clean and responsive user interface where tasks can be created, edited, updated, deleted, and tracked based on their status.",
-      image:
-        "/Images/taskmaster2.jpg",
-      technologies: ["Express js", "Node js","Node", "MongoDB"],
+      image: "/Images/taskmaster2.jpg",
+      technologies: ["Express js", "Node js", "Node", "MongoDB"],
       github: "https://github.com/Danutha2/TaskManager",
       demo: "https://github.com/Danutha2/TaskManager",
       featured: false,
       stats: { duration: "1 Week" },
     },
+
+    // Add more projects
+    {
+      title: "Dice Game",
+      description: `Strategic Dice Game with Adaptive AI and Modern UI
+ A player vs computer dice game built with Jetpack Compose! Set a target score, roll the dice, and strategize to 
+win. Features smart AI, win tracking, tiebreaker rounds, and a sleek UI.`,
+      image: "/Images/dice.jpg",
+      technologies: ["Jetpack Compose", "Android Studio", "Kotlin"],
+      github: "https://github.com/Danutha2/DiceGame",
+      demo: "https://github.com/Danutha2/DiceGame",
+      featured: false,
+      stats: { duration: "1 Month" },
+    },
+
+
+    {
+      title: "Movie App",
+      description: `A feature-rich Android app for movie enthusiasts with modern UI.
+ A modern Android app that allows users to search for movies by title, actor, or IMDB ID using real-time data 
+from the OMDB API. The app features a clean, responsive UI built with Jetpack Compose and Material 3,`,
+      image: "/Images/movieapp.jpg",
+      technologies: ["Jetpack Compose", "Android Studio", "Kotlin"],
+      github: "https://github.com/Danutha2/MovieApp",
+      demo: "https://github.com/Danutha2/MovieApp",
+      featured: false,
+      stats: { duration: "1 Month" },
+
+    }
+
+
   ];
 
   return (
