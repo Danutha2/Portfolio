@@ -46,7 +46,7 @@ const Home = () => {
                 <ArrowRight className="ml-2 -mr-1 h-5 w-5" />
               </Link>
               <a
-                href="Images/cv .pdf"
+                href="Images/cv.pdf"
                 download
                 className="inline-flex items-center px-8 py-3 border border-gray-300 dark:border-gray-600 text-base font-medium rounded-full text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
               >
